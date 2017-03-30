@@ -9,5 +9,11 @@
             "email": "michael.chelen@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"Example\\": "src/"}
+    },
+    "scripts": {
+      "test": "phpunit"
+    }
 }
