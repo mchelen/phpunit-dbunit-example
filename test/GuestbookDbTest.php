@@ -31,7 +31,7 @@ class GuestbookDbTest extends TestCase {
 
     public function testCount()
     {
-        $this->assertEquals(2, $this->getConnection()->getRowCount('guestbook'), "Pre-Condition");
+        $this->assertEquals(2, $this->getConnection()->getDataSet()->getRowCount('guestbook'), "Pre-Condition");
 
     }
 
