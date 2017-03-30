@@ -1,0 +1,13 @@
+{
+    "name": "mchelen/phpunit-dbunit-example",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Mike Chelen",
+            "email": "michael.chelen@gmail.com"
+        }
+    ],
+    "require": {}
+}
